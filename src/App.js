@@ -13,7 +13,7 @@ class App extends Component {
     topScore: 0,
     score: 0,
     message: "",
-    shakeit: "false"
+    shake: "false"
   };
   clickPicture = id => {
     // Arrange the pictures in a random manner
@@ -24,22 +24,22 @@ class App extends Component {
       this.setState({
         score: 0,
         clickedArray: [],
-        message: "Incorrect!! Game Over ☹️ Click an image to start again!",
-        shakeit: "true"
+        message: "WRONG!! Click an image to start over!",
+        shake: "true"
       });
     } else {
       this.setState({
         clickedArray: this.state.clickedArray.concat([id]),
         score: this.state.score + 1,
-        message: "Correct!! 🙂",
-        shakeit: "false"
+        message: "Correct! Keep going!",
+        shake: "false"
       });
     }
     // set topscore = score if score>topscore.
     if (this.state.score > this.state.topScore) {
       this.setState({ topScore: this.state.score });
     }
-    // shake the wrapper if shakeit is set to true
+    // shake the wrapper if shake is set to true
   };
   shuffleArray = picturesArray => {
     for (let i = picturesArray.length - 1; i > 0; i--) {
@@ -73,7 +73,7 @@ class App extends Component {
           </p>
         </h3>
         <Wrapper
-          shakeWrapper={this.state.shakeit}
+          shakeWrapper={this.state.shake}
           pictures={this.state.cards.map(picture => (
             <PictureCard
               clickPicture={this.clickPicture}
@@ -84,13 +84,6 @@ class App extends Component {
             />
           ))}
         />
-        <footer className="footer">
-          <div className="container">
-            <span className="text-muted">
-              &copy;Shama - Clicky Game - React app.
-            </span>
-          </div>
-        </footer>
       </div>
     );
   }
