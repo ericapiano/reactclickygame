@@ -1,0 +1,31 @@
+.card {
+  background: #fff;
+  border-radius: 2px;
+  height: 150px;
+  margin: 1rem;
+  position: relative;
+  width: 150px;
+  box-shadow: 0 3px 6px rgb(232, 106, 223), 0 3px 6px rgb(211, 37, 206);
+  text-align: left;
+}
+
+.card > .img-container {
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  background: rgb(227, 164, 227);
+}
+
+.card > .img-container > img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.img-thumbnail:hover {
+  background-color: red;
+  opacity: 0.5;
+}
+.img-container:hover {
+  transform: scale(1.1);
+}
