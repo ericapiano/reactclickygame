@@ -26,7 +26,6 @@
   justify-content: space-around;
   align-content: flex-start;
   overflow: auto;
-  /* Start the shake animation and make the animation last for 0.5 seconds */
 
   animation: shake 0.5s;
   animation-iteration-count: 5s;

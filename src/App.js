@@ -9,7 +9,7 @@ class App extends Component {
   // Setting this.state.cards to the cards json array
   state = {
     cards,
-    clickedArray: [],
+    array: [],
     topScore: 0,
     score: 0,
     message: "",
@@ -20,16 +20,16 @@ class App extends Component {
     const shuffledArray = this.shuffleArray(cards);
     this.setState({ cards: shuffledArray });
     // if clicked an image already clicked set this.state.score = 0; empty clickeadArray, end of if block
-    if (this.state.clickedArray.includes(id)) {
+    if (this.state.array.includes(id)) {
       this.setState({
         score: 0,
-        clickedArray: [],
-        message: "WRONG!! Click an image to start over!",
+        array: [],
+        message: "Wrong! Click an image to start over!",
         shake: "true"
       });
     } else {
       this.setState({
-        clickedArray: this.state.clickedArray.concat([id]),
+        array: this.state.array.concat([id]),
         score: this.state.score + 1,
         message: "Correct! Keep going!",
         shake: "false"
@@ -56,12 +56,12 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React Clicky Game!!</h1>
+          <h1 className="App-title">DISNEY PRINCESS MATCH GAME</h1>
         </header>
         <h3 className="App-intro">
           <strong>
-            Click on an image to earn points, but don't click on any, more than
-            once!
+            Click a different image each time to earn a point. Click the same
+            image twice in a row and you lose!
           </strong>
           <p className="score">
             <strong>
