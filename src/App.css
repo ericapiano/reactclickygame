@@ -8,11 +8,6 @@
   background-image: url("https://i.pinimg.com/originals/d7/da/2a/d7da2a007e6d185a9610e368de50f484.jpg");
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 15s linear;
-  height: 80px;
-}
-
 .App-header {
   background-color: rgb(240, 153, 227);
   font-size: 30px;
@@ -20,6 +15,7 @@
   padding: 20px;
   color: white;
   padding-bottom: 2px;
+  border-bottom: 2px solid white;
 }
 
 .App-title {
@@ -36,5 +32,5 @@
 }
 
 .score {
-  color: rgb(178, 26, 186);
+  color: rgb(156, 16, 164);
 }
