@@ -4,12 +4,12 @@ A Disney Princess themed memory game built using React.
 
 ## Instructions
 
-Gain a point each time you click a new image. Click the same image twice and you lose and the score resets to zero. Highest score is always updated.
+Gain a point each time you click a new image. Click the same image twice and you lose and the score resets to zero. The user's highest score is always updated.
 
 ## Technologies Used
 
 - React
-- ES 6
+- ES6
 - Bootstrap
 - CSS
 
