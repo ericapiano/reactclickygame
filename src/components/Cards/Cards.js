@@ -1,5 +1,5 @@
 import React from "react";
-import "./PictureCard.css";
+import "./Cards.css";
 
 const Characters = props => (
   <div className="card">

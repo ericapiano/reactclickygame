@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import PictureCard from "./components/PictureCard";
+import Cards from "./components/Cards";
 import Block from "./components/Block";
 import cards from "./characters.json";
 
@@ -77,7 +77,7 @@ class App extends Component {
         <Block
           shakeWrapper={this.state.shake}
           pictures={this.state.cards.map(picture => (
-            <PictureCard
+            <Cards
               clickPicture={this.clickPicture}
               id={picture.id}
               key={picture.id}
