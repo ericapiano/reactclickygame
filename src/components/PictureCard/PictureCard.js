@@ -1,7 +1,7 @@
 import React from "react";
 import "./PictureCard.css";
 
-const PictureCard = props => (
+const Characters = props => (
   <div className="card">
     <div className="img-container">
       <img
@@ -14,4 +14,4 @@ const PictureCard = props => (
   </div>
 );
 
-export default PictureCard;
+export default Characters;

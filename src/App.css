@@ -1,3 +1,8 @@
+/* @font-face {
+  font-family: friends;
+  src: url("assests/GABRWFFR.TTF");
+} */
+
 .App {
   text-align: center;
   background-image: url("https://i.pinimg.com/originals/d7/da/2a/d7da2a007e6d185a9610e368de50f484.jpg");
@@ -14,7 +19,7 @@
   height: 150px;
   padding: 20px;
   color: white;
-  padding-bottom: 50px;
+  padding-bottom: 2px;
 }
 
 .App-title {
@@ -22,18 +27,14 @@
 }
 
 .App-intro {
-  padding: 20px;
+  padding: 10px;
   color: rgb(190, 19, 199);
+}
+
+.fas {
+  margin-right: 30px;
 }
 
 .score {
   color: rgb(178, 26, 186);
-}
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

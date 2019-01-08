@@ -1,10 +1,10 @@
 import React from "react";
-import "./Wrapper.css";
+import "./Block.css";
 
-const Wrapper = props => (
+const Block = props => (
   <div className={props.shakeWrapper === "true" ? "wrapperShake" : "wrapper"}>
     {props.pictures}
   </div>
 );
 
-export default Wrapper;
+export default Block;

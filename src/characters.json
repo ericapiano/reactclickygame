@@ -16,7 +16,7 @@
   {
     "id": 3,
     "name": "Elsa",
-    "image": "https://ae01.alicdn.com/kf/HTB1oCbFKXXXXXc9XpXXq6xXFXXXe/2015Free-Shipping-Elsa-wig-popular-cartoon-girl-Hair-Wigs-children-Cosplay-Wigs-Elsa-Anna-princess-white.jpg_640x640.jpg",
+    "image": "http://coshd.com/media/catalog/product/cache/1/image/1200x1200/9df78eab33525d08d6e5fb8d27136e95/g/k/gk_g_jm6u_piwq1pyf_ro9.png",
     "occupation": "Princess",
     "location": "Arendelle"
   },
@@ -37,7 +37,7 @@
   {
     "id": 6,
     "name": "Snow White",
-    "image": "https://i.ytimg.com/vi/1_1xguE-SdA/hqdefault.jpg",
+    "image": "http://www.marthaandmary.org/wp-content/uploads/2017/09/terry.jpg",
     "occupation": "Princess",
     "location": "Germany"
   },
@@ -64,7 +64,7 @@
   },
   {
     "id": 10,
-    "name": "pocahontas",
+    "name": "Pocahontas",
     "image": "https://lessonplanned.co.uk/wp-content/uploads/2018/07/pocahontas-disney-movie-controversies-320x300.jpg",
     "occupation": "Princess",
     "location": "Virginia"
@@ -72,7 +72,7 @@
   {
     "id": 11,
     "name": "Moana",
-    "image": "https://www.gannett-cdn.com/-mm-/09b4e12c02ee2987405c92db9db93a1060b3f88d/c=851-0-2990-1608/local/-/media/2016/11/21/Phoenix/Phoenix/636153346705234711-MOANA-203.7-066.00-0022-cmyk.jpg?width=534&height=401&fit=crop",
+    "image": "https://pbs.twimg.com/profile_images/819955513718779905/DY4UfMVj_400x400.jpg",
     "occupation": "Princess",
     "location": "Hawaii"
   },
@@ -82,5 +82,35 @@
     "image": "https://vignette.wikia.nocookie.net/papalouiefanon/images/3/38/Brave.jpeg/revision/latest?cb=20170213125529",
     "occupation": "Princess",
     "location": "Scottland"
+  },
+
+  {
+    "id": 13,
+    "name": "Tinkerbell",
+    "image": "https://lumiere-a.akamaihd.net/v1/images/2b65901707e2087367946f7b7772fd8335c6c9e5.jpeg",
+    "occupation": "Fairy",
+    "location": "Neverland"
+  },
+  {
+    "id": 14,
+    "name": "Ana",
+    "image": "https://lumiere-a.akamaihd.net/v1/images/b5da8e4c0046a83b81dbd945719f6b354edd764b.jpeg?region=0,0,450,450",
+    "occupation": "Princess",
+    "location": "Castle"
+  },
+  {
+    "id": 15,
+    "name": "Elena",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShJmW1PxERgkD_TMRDiBLFSjFYbERFp0HleddPwj2Z9YAqWl2wRQ",
+    "occupation": "Princess",
+    "location": "Avalor"
+  },
+
+  {
+    "id": 16,
+    "name": "Alice",
+    "image": "http://media.heartlandtv.com/images/Alice1.PNG",
+    "occupation": "Princess",
+    "location": "Wonderland"
   }
 ]

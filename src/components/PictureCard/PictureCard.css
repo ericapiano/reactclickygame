@@ -23,9 +23,9 @@
 }
 
 .img-thumbnail:hover {
-  background-color: red;
+  background-color: purple;
   opacity: 0.5;
 }
 .img-container:hover {
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
 }
